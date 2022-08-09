@@ -42,6 +42,7 @@ function dividePivo(arr){
 }
 
 
-console.log(dividePivo(listaLivros))
-
+// console.log(dividePivo(listaLivros))
 // console.log(encontraMenor(listaLivros[2], listaLivros))
+
+module.exports = trocaLugar;
