@@ -30,9 +30,11 @@ function particiona (arr, esq, dir){
 
         if (atualEsq <= atualDir){
             trocaLugar(arr, atualEsq, atualDir);
+            atualEsq++;
+            atualDir--;
         }
     }
-    return atualEsq
+    return atualEsq;
 }
 
-console.log(quickSort(listaLivros, 0, listaLivros.length - 1))
+console.table(quickSort(listaLivros, 0, listaLivros.length - 1))
